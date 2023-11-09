@@ -1,0 +1,60 @@
+{
+    "intents": [
+        {
+            "tag": "Greetings",
+            "patterns": ["Hello", "Hey", "Hi", "Good Day", "Greetings", "What's up?", "How is it going?"],
+            "responses": ["Hello", "Hey", "What can I do for you?"]
+        },
+        {
+            "tag": "Weather",
+            "patterns": ["What's the weather like?", "How's the weather today?", "Is it sunny outside?"],
+            "responses": ["Let me check the weather for you.", "The weather is currently sunny.", "It's a bit cloudy today."]
+        },
+        {
+            "tag": "Time",
+            "patterns": ["What time is it?", "Do you have the time?", "Can you tell me the current time?"],
+            "responses": ["The time is 3:30 PM.", "It's 10:45 AM right now.", "Let me check the time for you."]
+        },
+        {
+            "tag": "Goodbye",
+            "patterns": ["Goodbye", "Farewell", "See you later", "Take care", "Bye for now"],
+            "responses": ["Goodbye!", "Farewell, have a great day!", "Take care and see you later."]
+        },
+        {
+            "tag": "Name",
+            "patterns": ["What's your name?", "May I know your name?", "Who are you?"],
+            "responses": ["I'm just a computer program, so I don't have a name.", "I don't have a name, but you can call me Assistant."]
+        },
+        {
+            "tag": "Gratitude",
+            "patterns": ["Thank you", "Thanks a lot", "I appreciate it", "You've been a great help"],
+            "responses": ["You're welcome!", "It's my pleasure to assist you.", "No problem, happy to help!"]
+        },
+        {
+            "tag": "Weather Update",
+            "patterns": ["Tell me the weather forecast", "What's the weather forecast for tomorrow?", "Is it going to rain today?"],
+            "responses": ["Sure, let me check the weather forecast for you.", "The forecast predicts clear skies for tomorrow.", "There's a chance of rain later today."]
+        },
+        {
+            "tag": "Jokes",
+            "patterns": ["Tell me a joke", "Do you know any funny jokes?", "I need a good laugh"],
+            "responses": ["Why don't scientists trust atoms? Because they make up everything!", "What do you call a fish with no eyes? Fsh!"]
+        },
+        {
+            "tag": "Help",
+            "patterns": ["Can you help me?", "I need assistance", "I'm stuck, can you guide me?"],
+            "responses": ["Of course, I'd be happy to help.", "What do you need assistance with?", "Tell me what you're looking for, and I'll assist you."]
+        },
+        {
+            "tag": "Food",
+            "patterns": ["What should I have for dinner?", "Recommend a good restaurant", "I'm hungry"],
+            "responses": ["How about trying Italian cuisine tonight?", "I can suggest some great restaurants in your area.", "Let me find some delicious recipes for you."]
+        },
+        {
+            "tag": "Emotions",
+            "patterns": ["I'm feeling sad", "I'm so happy", "I'm really frustrated", "I'm bored"],
+            "responses": ["I'm here to listen, tell me more about it.", "I'm glad to hear that you're happy!", "It's okay to feel frustrated sometimes. What's bothering you?"]
+        }
+    ]
+}
+
